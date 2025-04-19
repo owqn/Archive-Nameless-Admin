@@ -4818,7 +4818,7 @@ cmd.add({"f3x","fex"},{"f3x","F3X for client NEW VERSION </>"},function()
 end)
 
 cmd.add({"harked","comet"},{"harked (comet)","Executes Comet which is like harked"},function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/comet"))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/Comet"))();
 end)
 
 cmd.add({"triggerbot", "tbot"}, {"triggerbot (tbot)", "Executes a script that automatically clicks the mouse when the mouse is on a player"}, function()
@@ -5188,7 +5188,7 @@ cmd.add({"unclicktp", "untptool"}, {"unclicktp (untptool)", "Remove teleport but
 end)
 
 cmd.add({"dex"},{"dex","Using this you can see the parts / guis / scripts etc with this. A really good and helpful script."},function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/uuuuuuu/refs/heads/main/DexByMoonMobile"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/Moon%20Dex/Mobile%20Explorer"))()
 end)
 
 cmd.add({"Decompiler"},{"Decompiler","Allows you to decompile LocalScript/ModuleScript's"},function()
@@ -5379,7 +5379,7 @@ end)
 cmd.add({"gravitygun"},{"gravitygun","Probably the best gravity gun script thats fe"},function()
 	Wait();
 	DoNotif("Wait a few seconds for it to load")
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/gravity%20gun"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/gravitygun"))()
 end)
 
 cmd.add({"lockws","lockworkspace"},{"lockws (lockworkspace)","Locks the whole workspace"},function()
@@ -5626,7 +5626,7 @@ end
 
 cmd.add({"shiftlock","sl"}, {"shiftlock (sl)", "Toggles shiftlock"}, function()
 	if IsOnMobile then
-		loadstring(game:HttpGet("https://github.com/ltseverydayyou/uuuuuuu/blob/main/shiftlock?raw=true"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/shiftlock%3Fraw%3Dtrue"))()
 	else
 		EnableShiftLock()
 	end
@@ -5653,7 +5653,7 @@ cmd.add({"enable"}, {"enable", "Enables a specific CoreGui"}, function(...)
 			Callback = function()
 				StarterGui:SetCoreGuiEnabled(coreGuiType, true)
 				if coreGuiType == Enum.CoreGuiType.Chat or coreGuiType == Enum.CoreGuiType.All then
-					loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/uuuuuuu/refs/heads/main/EnableChat.lua"))()
+					loadstring(game:HttpGet("https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/EnableChat"))()
 				end
 			end
 		})
