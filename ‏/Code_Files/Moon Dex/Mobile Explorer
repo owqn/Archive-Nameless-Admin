@@ -36,7 +36,7 @@ Explorer = function()
 
 --[[local Decompile do
 	local Success, Decompile_Source = pcall(function()
-		return game:HttpGet("https://raw.githubusercontent.com/w-a-e/Advanced-Decompiler-V3/main/init.lua", true)
+		return game:HttpGet("https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/Moon%20Dex/Advanced-Decompiler-V3", true)
 	end)
 	
 	if Success then
