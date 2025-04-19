@@ -10937,7 +10937,7 @@ Main = (function()
 					Main.DepsVersionData[1] = ""
 				end
 			end
-			rawXML = rawXML or game:HttpGet("https://raw.githubusercontent.com/CloneTrooper1019/Roblox-Client-Tracker/roblox/ReflectionMetadata.xml")
+			rawXML = rawXML or game:HttpGet("https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/Moon%20Dex/Roblox-Client-Tracker%5Croblox%5CReflectionMetadata.xml")
 		else
 			if script:FindFirstChild("RMD") then
 				rawXML = require(script.RMD)
