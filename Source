@@ -2039,7 +2039,7 @@ if IsOnMobile then
 end
 
 cmd.add({"scripthub","hub"},{"scripthub (hub)","Thanks to scriptblox api"},function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/ScriptHubNA.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/ScriptHub%20N%5CA"))()
 end)
 
 cmd.add({"resizechat","rc"},{"resizechat (rc)","Makes chat resizable and draggable"},function()
@@ -2108,11 +2108,11 @@ cmd.add({"gotocampos","tocampos","tcp"},{"gotocampos (tocampos,tcp)","Teleports 
 end)
 
 cmd.add({"teleportgui","tpui","universeviewer","uviewer"},{"teleportgui (tpui,universeviewer,uviewer)","Gives an UI that grabs all places and teleports you by clicking a simple button"},function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/uuuuuuu/main/Universe%20Viewer"))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/Universe%20Viewer"))();
 end)
 
-cmd.add({"serverremotespy","srs","sremotespy"},{"serverremotespy (srs,sremotespy)","Gives an UI that logs all the remotes being called from the server (thanks SolSpy lol)"},function()
-	loadstring(game:HttpGet("https://github.com/ltseverydayyou/uuuuuuu/blob/main/Server%20Spy.lua?raw=spy"))()
+cmd.add({"serverremotespy","srs","sremotespy"},{"serverremotespy (srs,sremotespy)","Gives an UI that logs all the remotes being called from the server (shut up)"},function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/Srs_RemoteSpy/Main%20Spy"))()
 end)
 
 cmd.add({"updatelog","updlog","updates"},{"updatelog (updlog,updates)","show the update logs for Nameless Admin"},function()
@@ -2120,7 +2120,7 @@ cmd.add({"updatelog","updlog","updates"},{"updatelog (updlog,updates)","show the
 end)
 
 cmd.add({"discord", "invite"}, {"discord (invite)", "Copy an invite link to the official Nameless Admin Discord server"}, function()
-	local inviteLink = "https://discord.gg/zS7TpV3p64"
+	local inviteLink = "https://discord.gg/zS7TpV3p64 [Might Be Outdated]"
 
 	if setclipboard then
 		Notify({
