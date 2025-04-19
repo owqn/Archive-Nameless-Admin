@@ -1,5 +1,5 @@
 local ui=nil
-local Gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/uuuuuuu/refs/heads/main/srs%20UI.lua"))()
+local Gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/Srs_RemoteSpy/srs%E3%85%A4UI.lua"))()
 local connect,copyCon,fireCon,smallButton=nil,nil,nil,nil
 local con=nil
 local con1=nil
