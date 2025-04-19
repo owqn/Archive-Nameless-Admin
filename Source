@@ -305,7 +305,7 @@ local Notification = nil
 
 repeat
 	local success, result = pcall(function()
-		return loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/NamelessAdminNotifications.lua"))()
+		return loadstring(game:HttpGet("https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/System~Notifications"))()
 	end)
 
 	if success then
