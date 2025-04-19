@@ -3848,7 +3848,7 @@ end)
 		end
 	end
 	Noclipping=RunService.Stepped:Connect(NoclipLoop)
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/leg%20resize'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/owqn/Archive-Nameless-Admin/refs/heads/main/%E2%80%8F/Code_Files/leg%20resize'))()
 end)]]
 
 cmd.add({"fpsbooster","lowgraphics","boostfps","lowg"},{"fpsbooster (lowgraphics, boostfps, lowg)","Enables low graphics mode to improve performance."},function()
